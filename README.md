@@ -50,3 +50,16 @@ It combines **Automatic Computer Vision** (SIFT + Homography) with a powerful **
 Run the script:
 ```bash
 python main.py
+```
+
+---
+
+## ⚖️ Comparison (對比效果)
+
+See the difference between the shaky hand-held shots and the stabilized result.
+看看手持拍攝的原始檔，與經過 **SuccuLapse Aligner** 校正後的差異。
+
+| **Before (Raw / 原始)** | **After (Aligned / 對齊後)** |
+| :---: | :---: |
+| ![Before](./comparison/before.gif) | ![After](./comparison/after.gif) |
+| *Original photos (Shaky & Rotate)* | *Auto-aligned + Perspective Fix* |
