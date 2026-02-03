@@ -61,5 +61,5 @@ See the difference between the shaky hand-held shots and the stabilized result.
 
 | **Before (Raw / 原始)** | **After (Aligned / 對齊後)** |
 | :---: | :---: |
-| ![Before](./comparison/before.gif) | ![After](./comparison/after.gif) |
+| <img src="./comparison/before.gif" width="300"> | <img src="./comparison/after.gif" width="300"> |
 | *Original photos (Shaky & Rotate)* | *Auto-aligned + Perspective Fix* |
