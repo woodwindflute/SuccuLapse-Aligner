@@ -30,7 +30,7 @@ It combines **Automatic Computer Vision** (SIFT + Homography) with a powerful **
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/SuccuLapse-Aligner.git](https://github.com/your-username/SuccuLapse-Aligner.git)
+    git clone https://github.com/your-username/SuccuLapse-Aligner.git
     cd SuccuLapse-Aligner
     ```
 
