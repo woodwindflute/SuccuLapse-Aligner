@@ -40,7 +40,7 @@ It combines **Automatic Computer Vision** (SIFT + Homography) with a powerful **
     ```
 
 3.  **Prepare your photos:**
-    * Place your plant photos (JPG/PNG) in the root folder (or change the `folder` path in the script).
+    * Place your plant photos (JPG/PNG) in the `photos` folder (or change the `folder` path in the script).
     * Files should be named with dates for correct sorting (e.g., `20251208.jpg`, `20251215.jpg`).
 
 ---
