@@ -7,7 +7,7 @@ import imageio
 # --- 設定區 ---
 WINDOW_NAME = 'Auto-Align Professional'
 OUTPUT_FOLDER = 'aligned_auto_pro'
-TARGET_SIZE = (800, 800)
+TARGET_SIZE = (1000, 1000)
 # -------------
 
 def sort_files_by_date(files):
