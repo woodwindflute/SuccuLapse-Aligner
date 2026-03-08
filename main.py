@@ -7,7 +7,7 @@ import imageio
 # --- 設定區 ---
 WINDOW_NAME = 'Auto-Align Professional'
 OUTPUT_FOLDER = 'aligned_auto_pro'
-TARGET_SIZE = (1000, 1000)
+TARGET_SIZE = (800, 800)
 # -------------
 
 def sort_files_by_date(files):
@@ -146,8 +146,8 @@ def get_perspective_matrix(img_w, img_h, state):
 def crop_center_square(img):
     h, w = img.shape[:2]
     min_dim = min(h, w)
-    start_x = (w - min_dim) // 2
-    start_y = (h - min_dim) // 2
+    start_x = (w - min_dim) // 4
+    start_y = (h - min_dim) // 4
     cropped = img[start_y:start_y+min_dim, start_x:start_x+min_dim]
     return cv2.resize(cropped, TARGET_SIZE)
 
